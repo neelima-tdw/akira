@@ -1,0 +1,63 @@
+/* Base Application Styles */
+html{
+  height: 100%;
+  width: 100%;
+}
+body {
+  height:100%;
+  background: #fff;
+  font-family: "Arial";
+  text-align: center;
+  background-repeat: no-repeat;
+  overflow: auto;
+  border-style: solid;
+  border-color: rgb(78, 172, 78);
+}
+div {
+  background: transparent;
+  background-color: #transparent;
+  font-family: "Arial";
+  color: rgb(78, 172, 78);
+  
+}
+.imgTitle{
+  text-align: center;
+  margin: 40px;
+  width: 270px;
+}
+.akiraicon{
+  position: absolute;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  bottom: 100px;
+  width: 100px;
+  height:100px;
+  
+}
+.screen{
+  color: rgb(78, 172, 78);
+  font-family: "Arial";
+  font-size: 25px;
+  background-color:transparent;
+  text-transform: capitalize;
+}
+.hours{
+  color: rgb(78, 172, 78);
+  background-color: transparent;
+  text-transform: none;
+}
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #000;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
