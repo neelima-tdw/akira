@@ -40,13 +40,9 @@ render() {
 		}	
 		else{
 			text = "sorry,we're closed!";
-			text2 = Moment(a.open_hours_today.open_at).format("hh:mm a");
-			text3 = Moment(a.open_hours_today.close_at).format("hh:mm a");
 			return (
 			<div className = "screen"> {text}
-			<div className = "hours">Timing: {text2} To {text3}
 			<TickToc systime = {a.system_time}/>
-			</div>
 			</div>
 			);
 		}
